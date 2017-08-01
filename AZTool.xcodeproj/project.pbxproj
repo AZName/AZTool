@@ -15,6 +15,16 @@
 		286BCCB51F308FB700E6FB15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286BCCB31F308FB700E6FB15 /* LaunchScreen.storyboard */; };
 		286BCCC01F308FB700E6FB15 /* AZToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 286BCCBF1F308FB700E6FB15 /* AZToolTests.m */; };
 		286BCCCB1F308FB700E6FB15 /* AZToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 286BCCCA1F308FB700E6FB15 /* AZToolUITests.m */; };
+		286BCCEE1F30900C00E6FB15 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 286BCCDB1F30900C00E6FB15 /* NSDate+Extension.m */; };
+		286BCCEF1F30900C00E6FB15 /* NSObject+Archiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 286BCCDD1F30900C00E6FB15 /* NSObject+Archiver.m */; };
+		286BCCF01F30900C00E6FB15 /* NSObject+UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 286BCCDF1F30900C00E6FB15 /* NSObject+UserInfo.m */; };
+		286BCCF11F30900C00E6FB15 /* NSString+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 286BCCE11F30900C00E6FB15 /* NSString+Helper.m */; };
+		286BCCF21F30900C00E6FB15 /* UIBarButtonItem+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 286BCCE31F30900C00E6FB15 /* UIBarButtonItem+Badge.m */; };
+		286BCCF31F30900C00E6FB15 /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 286BCCE51F30900C00E6FB15 /* UIButton+ImageTitleSpacing.m */; };
+		286BCCF41F30900C00E6FB15 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 286BCCE71F30900C00E6FB15 /* UIColor+Extension.m */; };
+		286BCCF51F30900C00E6FB15 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 286BCCE91F30900C00E6FB15 /* UIImage+Extension.m */; };
+		286BCCF61F30900C00E6FB15 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 286BCCEB1F30900C00E6FB15 /* UIView+Extension.m */; };
+		286BCCF71F30900C00E6FB15 /* UIViewController+Aleart.m in Sources */ = {isa = PBXBuildFile; fileRef = 286BCCED1F30900C00E6FB15 /* UIViewController+Aleart.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,27 @@
 		286BCCC61F308FB700E6FB15 /* AZToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AZToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		286BCCCA1F308FB700E6FB15 /* AZToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZToolUITests.m; sourceTree = "<group>"; };
 		286BCCCC1F308FB700E6FB15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		286BCCD91F30900C00E6FB15 /* CategoryToolHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryToolHeader.h; sourceTree = "<group>"; };
+		286BCCDA1F30900C00E6FB15 /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
+		286BCCDB1F30900C00E6FB15 /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
+		286BCCDC1F30900C00E6FB15 /* NSObject+Archiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Archiver.h"; sourceTree = "<group>"; };
+		286BCCDD1F30900C00E6FB15 /* NSObject+Archiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Archiver.m"; sourceTree = "<group>"; };
+		286BCCDE1F30900C00E6FB15 /* NSObject+UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+UserInfo.h"; sourceTree = "<group>"; };
+		286BCCDF1F30900C00E6FB15 /* NSObject+UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+UserInfo.m"; sourceTree = "<group>"; };
+		286BCCE01F30900C00E6FB15 /* NSString+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Helper.h"; sourceTree = "<group>"; };
+		286BCCE11F30900C00E6FB15 /* NSString+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Helper.m"; sourceTree = "<group>"; };
+		286BCCE21F30900C00E6FB15 /* UIBarButtonItem+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Badge.h"; sourceTree = "<group>"; };
+		286BCCE31F30900C00E6FB15 /* UIBarButtonItem+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Badge.m"; sourceTree = "<group>"; };
+		286BCCE41F30900C00E6FB15 /* UIButton+ImageTitleSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpacing.h"; sourceTree = "<group>"; };
+		286BCCE51F30900C00E6FB15 /* UIButton+ImageTitleSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleSpacing.m"; sourceTree = "<group>"; };
+		286BCCE61F30900C00E6FB15 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		286BCCE71F30900C00E6FB15 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		286BCCE81F30900C00E6FB15 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		286BCCE91F30900C00E6FB15 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		286BCCEA1F30900C00E6FB15 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		286BCCEB1F30900C00E6FB15 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		286BCCEC1F30900C00E6FB15 /* UIViewController+Aleart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Aleart.h"; sourceTree = "<group>"; };
+		286BCCED1F30900C00E6FB15 /* UIViewController+Aleart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Aleart.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +136,7 @@
 				286BCCA91F308FB700E6FB15 /* AppDelegate.m */,
 				286BCCAB1F308FB700E6FB15 /* ViewController.h */,
 				286BCCAC1F308FB700E6FB15 /* ViewController.m */,
+				286BCCD81F30900C00E6FB15 /* Category */,
 				286BCCAE1F308FB700E6FB15 /* Main.storyboard */,
 				286BCCB11F308FB700E6FB15 /* Assets.xcassets */,
 				286BCCB31F308FB700E6FB15 /* LaunchScreen.storyboard */,
@@ -138,6 +170,34 @@
 				286BCCCC1F308FB700E6FB15 /* Info.plist */,
 			);
 			path = AZToolUITests;
+			sourceTree = "<group>";
+		};
+		286BCCD81F30900C00E6FB15 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				286BCCD91F30900C00E6FB15 /* CategoryToolHeader.h */,
+				286BCCDA1F30900C00E6FB15 /* NSDate+Extension.h */,
+				286BCCDB1F30900C00E6FB15 /* NSDate+Extension.m */,
+				286BCCDC1F30900C00E6FB15 /* NSObject+Archiver.h */,
+				286BCCDD1F30900C00E6FB15 /* NSObject+Archiver.m */,
+				286BCCDE1F30900C00E6FB15 /* NSObject+UserInfo.h */,
+				286BCCDF1F30900C00E6FB15 /* NSObject+UserInfo.m */,
+				286BCCE01F30900C00E6FB15 /* NSString+Helper.h */,
+				286BCCE11F30900C00E6FB15 /* NSString+Helper.m */,
+				286BCCE21F30900C00E6FB15 /* UIBarButtonItem+Badge.h */,
+				286BCCE31F30900C00E6FB15 /* UIBarButtonItem+Badge.m */,
+				286BCCE41F30900C00E6FB15 /* UIButton+ImageTitleSpacing.h */,
+				286BCCE51F30900C00E6FB15 /* UIButton+ImageTitleSpacing.m */,
+				286BCCE61F30900C00E6FB15 /* UIColor+Extension.h */,
+				286BCCE71F30900C00E6FB15 /* UIColor+Extension.m */,
+				286BCCE81F30900C00E6FB15 /* UIImage+Extension.h */,
+				286BCCE91F30900C00E6FB15 /* UIImage+Extension.m */,
+				286BCCEA1F30900C00E6FB15 /* UIView+Extension.h */,
+				286BCCEB1F30900C00E6FB15 /* UIView+Extension.m */,
+				286BCCEC1F30900C00E6FB15 /* UIViewController+Aleart.h */,
+				286BCCED1F30900C00E6FB15 /* UIViewController+Aleart.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +333,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				286BCCF01F30900C00E6FB15 /* NSObject+UserInfo.m in Sources */,
+				286BCCEF1F30900C00E6FB15 /* NSObject+Archiver.m in Sources */,
+				286BCCEE1F30900C00E6FB15 /* NSDate+Extension.m in Sources */,
 				286BCCAD1F308FB700E6FB15 /* ViewController.m in Sources */,
 				286BCCAA1F308FB700E6FB15 /* AppDelegate.m in Sources */,
 				286BCCA71F308FB700E6FB15 /* main.m in Sources */,
+				286BCCF61F30900C00E6FB15 /* UIView+Extension.m in Sources */,
+				286BCCF21F30900C00E6FB15 /* UIBarButtonItem+Badge.m in Sources */,
+				286BCCF71F30900C00E6FB15 /* UIViewController+Aleart.m in Sources */,
+				286BCCF41F30900C00E6FB15 /* UIColor+Extension.m in Sources */,
+				286BCCF11F30900C00E6FB15 /* NSString+Helper.m in Sources */,
+				286BCCF51F30900C00E6FB15 /* UIImage+Extension.m in Sources */,
+				286BCCF31F30900C00E6FB15 /* UIButton+ImageTitleSpacing.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
