@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		286BCCA71F308FB700E6FB15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 286BCCA61F308FB700E6FB15 /* main.m */; };
+		286BCCAA1F308FB700E6FB15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 286BCCA91F308FB700E6FB15 /* AppDelegate.m */; };
+		286BCCAD1F308FB700E6FB15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 286BCCAC1F308FB700E6FB15 /* ViewController.m */; };
+		286BCCB01F308FB700E6FB15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286BCCAE1F308FB700E6FB15 /* Main.storyboard */; };
+		286BCCB21F308FB700E6FB15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 286BCCB11F308FB700E6FB15 /* Assets.xcassets */; };
+		286BCCB51F308FB700E6FB15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286BCCB31F308FB700E6FB15 /* LaunchScreen.storyboard */; };
+		286BCCC01F308FB700E6FB15 /* AZToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 286BCCBF1F308FB700E6FB15 /* AZToolTests.m */; };
+		286BCCCB1F308FB700E6FB15 /* AZToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 286BCCCA1F308FB700E6FB15 /* AZToolUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		286BCCBC1F308FB700E6FB15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 286BCC9A1F308FB700E6FB15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 286BCCA11F308FB700E6FB15;
+			remoteInfo = AZTool;
+		};
+		286BCCC71F308FB700E6FB15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 286BCC9A1F308FB700E6FB15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 286BCCA11F308FB700E6FB15;
+			remoteInfo = AZTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		286BCCA21F308FB700E6FB15 /* AZTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AZTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		286BCCA61F308FB700E6FB15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		286BCCA81F308FB700E6FB15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		286BCCA91F308FB700E6FB15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		286BCCAB1F308FB700E6FB15 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		286BCCAC1F308FB700E6FB15 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		286BCCAF1F308FB700E6FB15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		286BCCB11F308FB700E6FB15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		286BCCB41F308FB700E6FB15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		286BCCB61F308FB700E6FB15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		286BCCBB1F308FB700E6FB15 /* AZToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AZToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		286BCCBF1F308FB700E6FB15 /* AZToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZToolTests.m; sourceTree = "<group>"; };
+		286BCCC11F308FB700E6FB15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		286BCCC61F308FB700E6FB15 /* AZToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AZToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		286BCCCA1F308FB700E6FB15 /* AZToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZToolUITests.m; sourceTree = "<group>"; };
+		286BCCCC1F308FB700E6FB15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		286BCC9F1F308FB700E6FB15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		286BCCB81F308FB700E6FB15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		286BCCC31F308FB700E6FB15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		286BCC991F308FB700E6FB15 = {
+			isa = PBXGroup;
+			children = (
+				286BCCA41F308FB700E6FB15 /* AZTool */,
+				286BCCBE1F308FB700E6FB15 /* AZToolTests */,
+				286BCCC91F308FB700E6FB15 /* AZToolUITests */,
+				286BCCA31F308FB700E6FB15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		286BCCA31F308FB700E6FB15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				286BCCA21F308FB700E6FB15 /* AZTool.app */,
+				286BCCBB1F308FB700E6FB15 /* AZToolTests.xctest */,
+				286BCCC61F308FB700E6FB15 /* AZToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		286BCCA41F308FB700E6FB15 /* AZTool */ = {
+			isa = PBXGroup;
+			children = (
+				286BCCA81F308FB700E6FB15 /* AppDelegate.h */,
+				286BCCA91F308FB700E6FB15 /* AppDelegate.m */,
+				286BCCAB1F308FB700E6FB15 /* ViewController.h */,
+				286BCCAC1F308FB700E6FB15 /* ViewController.m */,
+				286BCCAE1F308FB700E6FB15 /* Main.storyboard */,
+				286BCCB11F308FB700E6FB15 /* Assets.xcassets */,
+				286BCCB31F308FB700E6FB15 /* LaunchScreen.storyboard */,
+				286BCCB61F308FB700E6FB15 /* Info.plist */,
+				286BCCA51F308FB700E6FB15 /* Supporting Files */,
+			);
+			path = AZTool;
+			sourceTree = "<group>";
+		};
+		286BCCA51F308FB700E6FB15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				286BCCA61F308FB700E6FB15 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		286BCCBE1F308FB700E6FB15 /* AZToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				286BCCBF1F308FB700E6FB15 /* AZToolTests.m */,
+				286BCCC11F308FB700E6FB15 /* Info.plist */,
+			);
+			path = AZToolTests;
+			sourceTree = "<group>";
+		};
+		286BCCC91F308FB700E6FB15 /* AZToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				286BCCCA1F308FB700E6FB15 /* AZToolUITests.m */,
+				286BCCCC1F308FB700E6FB15 /* Info.plist */,
+			);
+			path = AZToolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		286BCCA11F308FB700E6FB15 /* AZTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 286BCCCF1F308FB700E6FB15 /* Build configuration list for PBXNativeTarget "AZTool" */;
+			buildPhases = (
+				286BCC9E1F308FB700E6FB15 /* Sources */,
+				286BCC9F1F308FB700E6FB15 /* Frameworks */,
+				286BCCA01F308FB700E6FB15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AZTool;
+			productName = AZTool;
+			productReference = 286BCCA21F308FB700E6FB15 /* AZTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		286BCCBA1F308FB700E6FB15 /* AZToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 286BCCD21F308FB700E6FB15 /* Build configuration list for PBXNativeTarget "AZToolTests" */;
+			buildPhases = (
+				286BCCB71F308FB700E6FB15 /* Sources */,
+				286BCCB81F308FB700E6FB15 /* Frameworks */,
+				286BCCB91F308FB700E6FB15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				286BCCBD1F308FB700E6FB15 /* PBXTargetDependency */,
+			);
+			name = AZToolTests;
+			productName = AZToolTests;
+			productReference = 286BCCBB1F308FB700E6FB15 /* AZToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		286BCCC51F308FB700E6FB15 /* AZToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 286BCCD51F308FB700E6FB15 /* Build configuration list for PBXNativeTarget "AZToolUITests" */;
+			buildPhases = (
+				286BCCC21F308FB700E6FB15 /* Sources */,
+				286BCCC31F308FB700E6FB15 /* Frameworks */,
+				286BCCC41F308FB700E6FB15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				286BCCC81F308FB700E6FB15 /* PBXTargetDependency */,
+			);
+			name = AZToolUITests;
+			productName = AZToolUITests;
+			productReference = 286BCCC61F308FB700E6FB15 /* AZToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		286BCC9A1F308FB700E6FB15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "徐振";
+				TargetAttributes = {
+					286BCCA11F308FB700E6FB15 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					286BCCBA1F308FB700E6FB15 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 286BCCA11F308FB700E6FB15;
+					};
+					286BCCC51F308FB700E6FB15 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 286BCCA11F308FB700E6FB15;
+					};
+				};
+			};
+			buildConfigurationList = 286BCC9D1F308FB700E6FB15 /* Build configuration list for PBXProject "AZTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 286BCC991F308FB700E6FB15;
+			productRefGroup = 286BCCA31F308FB700E6FB15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				286BCCA11F308FB700E6FB15 /* AZTool */,
+				286BCCBA1F308FB700E6FB15 /* AZToolTests */,
+				286BCCC51F308FB700E6FB15 /* AZToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		286BCCA01F308FB700E6FB15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				286BCCB51F308FB700E6FB15 /* LaunchScreen.storyboard in Resources */,
+				286BCCB21F308FB700E6FB15 /* Assets.xcassets in Resources */,
+				286BCCB01F308FB700E6FB15 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		286BCCB91F308FB700E6FB15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		286BCCC41F308FB700E6FB15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		286BCC9E1F308FB700E6FB15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				286BCCAD1F308FB700E6FB15 /* ViewController.m in Sources */,
+				286BCCAA1F308FB700E6FB15 /* AppDelegate.m in Sources */,
+				286BCCA71F308FB700E6FB15 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		286BCCB71F308FB700E6FB15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				286BCCC01F308FB700E6FB15 /* AZToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		286BCCC21F308FB700E6FB15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				286BCCCB1F308FB700E6FB15 /* AZToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		286BCCBD1F308FB700E6FB15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 286BCCA11F308FB700E6FB15 /* AZTool */;
+			targetProxy = 286BCCBC1F308FB700E6FB15 /* PBXContainerItemProxy */;
+		};
+		286BCCC81F308FB700E6FB15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 286BCCA11F308FB700E6FB15 /* AZTool */;
+			targetProxy = 286BCCC71F308FB700E6FB15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		286BCCAE1F308FB700E6FB15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				286BCCAF1F308FB700E6FB15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		286BCCB31F308FB700E6FB15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				286BCCB41F308FB700E6FB15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		286BCCCD1F308FB700E6FB15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		286BCCCE1F308FB700E6FB15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		286BCCD01F308FB700E6FB15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AZTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdhoe.azhen.AZTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		286BCCD11F308FB700E6FB15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AZTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdhoe.azhen.AZTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		286BCCD31F308FB700E6FB15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AZToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdhoe.azhen.AZToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AZTool.app/AZTool";
+			};
+			name = Debug;
+		};
+		286BCCD41F308FB700E6FB15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AZToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdhoe.azhen.AZToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AZTool.app/AZTool";
+			};
+			name = Release;
+		};
+		286BCCD61F308FB700E6FB15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AZToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdhoe.azhen.AZToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AZTool;
+			};
+			name = Debug;
+		};
+		286BCCD71F308FB700E6FB15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AZToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdhoe.azhen.AZToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AZTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		286BCC9D1F308FB700E6FB15 /* Build configuration list for PBXProject "AZTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				286BCCCD1F308FB700E6FB15 /* Debug */,
+				286BCCCE1F308FB700E6FB15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		286BCCCF1F308FB700E6FB15 /* Build configuration list for PBXNativeTarget "AZTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				286BCCD01F308FB700E6FB15 /* Debug */,
+				286BCCD11F308FB700E6FB15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		286BCCD21F308FB700E6FB15 /* Build configuration list for PBXNativeTarget "AZToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				286BCCD31F308FB700E6FB15 /* Debug */,
+				286BCCD41F308FB700E6FB15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		286BCCD51F308FB700E6FB15 /* Build configuration list for PBXNativeTarget "AZToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				286BCCD61F308FB700E6FB15 /* Debug */,
+				286BCCD71F308FB700E6FB15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 286BCC9A1F308FB700E6FB15 /* Project object */;
+}
